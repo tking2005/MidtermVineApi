@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c8a7c06c204b153572040d0188ed846603a95a6d">
+        <dex dex="/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d643b34510804b60b86528f917a425770fb89b48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6c19ba361dc8fab24de334d3989ae277dc2fcce4">
+        <dex dex="/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c884bcdd51594382db8c2278980e4ad2e9ed043c/classes.dex" />
+    </item>
+
+</items>

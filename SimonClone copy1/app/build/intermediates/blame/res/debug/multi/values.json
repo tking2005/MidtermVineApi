@@ -1,0 +1,338 @@
+[
+    {
+        "outputFile": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 19,
+                    "endOffset": 236
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 4419,
+                        "endLine": 79,
+                        "endColumn": 19,
+                        "endOffset": 4600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 241,
+                    "endLine": 12,
+                    "endColumn": 19,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 4192,
+                        "endLine": 74,
+                        "endColumn": 19,
+                        "endOffset": 4414
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 468,
+                    "endColumn": 48,
+                    "endOffset": 512
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 48,
+                        "endOffset": 1048
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 517,
+                    "endColumn": 47,
+                    "endOffset": 560
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 660,
+                        "endColumn": 47,
+                        "endOffset": 703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 565,
+                    "endColumn": 55,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1056,
+                        "endColumn": 55,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endColumn": 38,
+                    "endOffset": 655
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 830,
+                        "endColumn": 38,
+                        "endOffset": 864
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 660,
+                    "endColumn": 58,
+                    "endOffset": 714
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 601,
+                        "endColumn": 58,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 719,
+                    "endColumn": 37,
+                    "endOffset": 752
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 0,
+                        "startOffset": 3164,
+                        "endColumn": 33,
+                        "endOffset": 3197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 757,
+                    "endColumn": 37,
+                    "endOffset": 790
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 708,
+                        "endColumn": 37,
+                        "endOffset": 741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 795,
+                    "endColumn": 40,
+                    "endOffset": 831
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 869,
+                        "endColumn": 40,
+                        "endOffset": 905
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 836,
+                    "endLine": 46,
+                    "endColumn": 9,
+                    "endOffset": 2867
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endLine": 49,
+                        "endColumn": 9,
+                        "endOffset": 3163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2872,
+                    "endLine": 64,
+                    "endColumn": 9,
+                    "endOffset": 3848
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 0,
+                        "startOffset": 3201,
+                        "endLine": 68,
+                        "endColumn": 9,
+                        "endOffset": 4187
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 3853,
+                    "endColumn": 43,
+                    "endOffset": 3892
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 746,
+                        "endColumn": 43,
+                        "endOffset": 785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 3897,
+                    "endColumn": 33,
+                    "endOffset": 3926
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 4605,
+                        "endColumn": 33,
+                        "endOffset": 4634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 3931,
+                    "endColumn": 45,
+                    "endOffset": 3972
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 910,
+                        "endColumn": 45,
+                        "endOffset": 951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 3977,
+                    "endColumn": 47,
+                    "endOffset": 4020
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 956,
+                        "endColumn": 47,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4025,
+                    "endColumn": 39,
+                    "endOffset": 4060
+                },
+                "from": {
+                    "file": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 790,
+                        "endColumn": 39,
+                        "endOffset": 825
+                    }
+                }
+            }
+        ]
+    }
+]

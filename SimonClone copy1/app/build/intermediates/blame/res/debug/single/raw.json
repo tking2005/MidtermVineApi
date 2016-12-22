@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/yellow_long.ogg",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/yellow_long.ogg"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/lose.mp3",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/lose.mp3"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/red_long.ogg",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/red_long.ogg"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/victory.mp3",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/victory.mp3"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/special_razz.ogg",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/special_razz.ogg"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/green_long.ogg",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/green_long.ogg"
+    },
+    {
+        "merged": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/res/merged/debug/raw/blue_long.ogg",
+        "source": "/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/src/main/res/raw/blue_long.ogg"
+    }
+]

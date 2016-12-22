@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish to English"
+        android:id="@+id/BodyPartProfile"
+        />
+
+    <TextView
+        android:id="@+id/BodyPartNameHands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LOS MANOS"
+        android:layout_below="@+id/BodyPartProfile"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="hands"
+        android:id="@+id/los_manos"
+        android:layout_alignRight="@+id/spicy"
+        android:layout_below="@+id/spicy"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFF00FF"/>
+
+
+
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="90dp"
+        android:src = "@drawable/los_manos"
+        android:id="@+id/image_la_cara"
+        android:layout_below="@+id/daughter"
+        android:layout_alignRight="@+id/BodyPartNameFace"
+        android:textColor="#FFFF00FF"
+        android:layout_weight="0.53" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MenusSharedPreferences</string>
+    <string name="loremIpsumText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name = "log_In">Log In!</string>
+    <string name = "log_Out">Log Out!</string>
+    <string name = "increase">Increase Size</string>
+    <string name = "decrease">Decrease Size</string>
+    <string name = "really_big">r big</string>
+    <string name="really_small">r small</string>
+    <string name = "title_activity_menu">MenuActivity</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "cheese": "mozzarella",//objects of json don't matter but object in array do...
+  //"toppingCount": 3,
+  "toppings": ["olives", "pickles", "anchovies"],//will treat objects in array as an index
+  "fresh": true
+}

@@ -1,0 +1,7 @@
+#Fri Sep 30 20:44:33 EDT 2016
+base.0=/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d643b34510804b60b86528f917a425770fb89b48
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c884bcdd51594382db8c2278980e4ad2e9ed043c/classes.dex
+base.1=/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c884bcdd51594382db8c2278980e4ad2e9ed043c
+file.0=/Users/tarynking/Desktop/accesscode/SimonClone copy1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d643b34510804b60b86528f917a425770fb89b48/classes.dex

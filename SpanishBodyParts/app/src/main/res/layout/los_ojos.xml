@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spanish to English"
+        android:id="@+id/BodyPartProfile"
+        />
+
+    <TextView
+        android:id="@+id/BodyPartNameFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LA CARA"
+        android:layout_below="@+id/BodyPartProfile"
+        android:layout_alignParentLeft="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="los manos"
+        android:id="@+id/los_manos"
+        android:layout_alignRight="@+id/spicy"
+        android:layout_below="@+id/spicy"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFF00FF"/>
+
+</LinearLayout>

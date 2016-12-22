@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/log_in_action"-->
+        <!--android:title="@string/log_In"/>-->
+        <!--android:icon="@android:drawable/arrow_down_float"-->
+        <!--app:showAsAction="always"-->
+
+    <item android:id="@+id/smallest_text_action"
+        android:title="@string/really_small"/>
+
+    <item android:id="@+id/largest"
+        android:title="@string/really_big"/>
+
+
+
+    <item android:id="@+id/really_small_text"
+        android:title="@string/log_In"/>
+
+    <!--<item android:id="@+id/log_out_action"-->
+        <!--android:title="@string/log_Out"/>-->
+        <!--android:icon="@android:drawable/arrow_down_float"-->
+        <!--app:showAsAction="ifRoom"-->
+
+</menu>
