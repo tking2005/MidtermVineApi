@@ -1,6 +1,6 @@
 package nyc.c4q.tarynking.exam12122016.networks;
 
-import nyc.c4q.tarynking.exam12122016.AnimalModel;
+import nyc.c4q.tarynking.exam12122016.models.AnimalModel;
 import retrofit2.Call;
 import retrofit2.http.GET;
 

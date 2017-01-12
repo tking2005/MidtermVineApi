@@ -6,6 +6,8 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import nyc.c4q.tarynking.exam12122016.models.Animal;
+
 /**
  * Created by tarynking on 12/20/16.
  */
@@ -34,4 +36,6 @@ public class AnimalAdapter extends RecyclerView.Adapter {
         this.animal = animal;
         notifyDataSetChanged();
     }
+
+
 }

@@ -1,6 +1,7 @@
 package nyc.c4q.tarynking.exam12122016;
 
 import android.app.Fragment;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +12,8 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
+import nyc.c4q.tarynking.exam12122016.models.Animal;
+import nyc.c4q.tarynking.exam12122016.models.AnimalModel;
 import nyc.c4q.tarynking.exam12122016.networks.AnimalApi;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,12 +27,15 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainFragment extends Fragment {
 
+    private View rootView;
     private static final String BASE_URL = "http://jsjrobotics.nyc/";
     private RecyclerView recyclerView;
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        rootView = inflater.inflate(R.layout.fragment_main, container, false);
+        return rootView;
+
     }
 
     @Override
@@ -62,6 +68,13 @@ public class MainFragment extends Fragment {
 
             }
         });
+
     }
+//    @Override
+    public void onAnimalNameClicked(Animal animal) {
+        rootView.setBackgroundColor(Color.parseColor(animal.getBackground()));
+    }
+
+
 }
 

@@ -1,4 +1,4 @@
-package nyc.c4q.tarynking.exam12122016;
+package nyc.c4q.tarynking.exam12122016.models;
 
 /**
  * Created by tarynking on 12/21/16.

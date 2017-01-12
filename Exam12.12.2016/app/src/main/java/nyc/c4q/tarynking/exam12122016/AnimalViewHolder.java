@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import nyc.c4q.tarynking.exam12122016.models.Animal;
+
 /**
  * Created by tarynking on 12/20/16.
  */
@@ -55,12 +57,12 @@ public class AnimalViewHolder extends RecyclerView.ViewHolder {
             public void onClick(View view) {
 
                 Toast.makeText(itemView.getContext(), "CLICKED", Toast.LENGTH_SHORT).show();
-                MainFragment mainFragment = new MainFragment();
-                backgroundColor = Color.parseColor(animal.getBackground());
-//                mainFragment.getView().setBackgroundColor(backgroundColor);
+                onAnimalNameClicked(animal);
 
 
+            }
 
+            private void onAnimalNameClicked(Animal animal) {
             }
         });
     }
