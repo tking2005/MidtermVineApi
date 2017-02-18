@@ -13,7 +13,7 @@ import nyc.c4q.tarynking.downloadimage.models.AvailableKey;
  */
 
 public class KeyAdapter extends RecyclerView.Adapter {
-    private List<AvailableKey> availableKeys = new ArrayList<>(10);
+    private List<AvailableKey> availableKeys = new ArrayList<>();
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -31,8 +31,8 @@ public class KeyAdapter extends RecyclerView.Adapter {
 
     @Override
     public int getItemCount() {
-//        return availableKeys.size();
-        return 10;
+        return availableKeys.size();
+
     }
 
     public void setData(List<AvailableKey> availableKeys1){

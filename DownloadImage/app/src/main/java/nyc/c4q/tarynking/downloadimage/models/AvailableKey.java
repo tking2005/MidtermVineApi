@@ -1,15 +1,22 @@
 package nyc.c4q.tarynking.downloadimage.models;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by tarynking on 1/11/17.
  */
 public class AvailableKey {
 
 
+    @SerializedName("name")
+    @Expose
     private String name;
-
+    @SerializedName("textColor")
+    @Expose
     private String textColor;
-
+    @SerializedName("url")
+    @Expose
     private String url;
 
     public String getName() {
@@ -35,5 +42,6 @@ public class AvailableKey {
     public void setUrl(String url) {
         this.url = url;
     }
+
 
 }

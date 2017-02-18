@@ -1,7 +1,6 @@
 package nyc.c4q.tarynking.exam12122016;
 
 import android.app.Fragment;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
@@ -70,10 +69,7 @@ public class MainFragment extends Fragment {
         });
 
     }
-//    @Override
-    public void onAnimalNameClicked(Animal animal) {
-        rootView.setBackgroundColor(Color.parseColor(animal.getBackground()));
-    }
+
 
 
 }

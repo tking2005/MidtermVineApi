@@ -35,6 +35,8 @@ public class MainFragment extends Fragment {
         rootView = inflater.inflate(R.layout.fragment_main, container, false);
         return rootView;
 
+
+
     }
 
     @Override
@@ -43,6 +45,14 @@ public class MainFragment extends Fragment {
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerview);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
         recyclerView.setAdapter(new KeyAdapter());
+
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
 
         //retrofit
         Retrofit retrofit = new Retrofit.Builder()
@@ -58,18 +68,18 @@ public class MainFragment extends Fragment {
             public void onResponse(Call<KeyList> call, Response<KeyList> response) {
                 KeyList model = response.body();
                 List<AvailableKey> houses = model.getAvailableKeys();
+                System.out.print(houses);
                 KeyAdapter adapter = (KeyAdapter) recyclerView.getAdapter();
                 adapter.setData(houses);
             }
 
             @Override
             public void onFailure(Call<KeyList> call, Throwable t) {
+                t.printStackTrace();
+                System.out.print("failed");
 
             }
         });
 
     }
-
-
-
 }

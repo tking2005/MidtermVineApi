@@ -1,13 +1,13 @@
 package nyc.c4q.tarynking.downloadimage;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import nyc.c4q.tarynking.downloadimage.models.AvailableKey;
 
@@ -35,16 +35,17 @@ public class AvailableKeyHolder extends RecyclerView.ViewHolder {
         keyNameTv.setText(availableKey.getName());
         keyTextColor = Color.parseColor(availableKey.getTextColor());
         keyNameTv.setTextColor(keyTextColor);
-//        Picasso.with(this).load(keyUrl).into(viewHolder.imageView);
+        keyUrl = availableKey.getUrl();
 
-        itemView.setOnClickListener(new View.OnClickListener() {
+
+        itemView.setOnClickListener(new View.OnClickListener() { //itemview is the parent view of the viewholder...this is the view
 
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(itemView.getContext(), "Press once more to see list", Toast.LENGTH_SHORT).show();
-//                View mView = (View) view.getParent();
-//                mView.setBackgroundColor(Color.parseColor(keyNameTv.getTextColor()));
+                Intent intent = new Intent(itemView.getContext(), SecondActivity.class);
+                intent.putExtra("keyString", keyUrl);
+                itemView.getContext().startActivity(intent);
 
 
             }

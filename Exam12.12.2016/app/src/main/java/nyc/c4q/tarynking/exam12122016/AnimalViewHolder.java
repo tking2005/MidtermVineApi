@@ -24,18 +24,9 @@ public class AnimalViewHolder extends RecyclerView.ViewHolder {
     private Fragment fragment;
 
 
-
-
-
     public AnimalViewHolder(ViewGroup parent) {
         super(inflateView(parent));
         animalNameTv = (TextView) itemView.findViewById(R.id.vh_animal_name);
-
-
-
-
-
-
 
     }
 
@@ -57,13 +48,13 @@ public class AnimalViewHolder extends RecyclerView.ViewHolder {
             public void onClick(View view) {
 
                 Toast.makeText(itemView.getContext(), "CLICKED", Toast.LENGTH_SHORT).show();
-                onAnimalNameClicked(animal);
+                View mView = (View) view.getParent();
+                mView.setBackgroundColor(Color.parseColor(animal.getBackground()));
 
 
             }
 
-            private void onAnimalNameClicked(Animal animal) {
-            }
+
         });
     }
 }
